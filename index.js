@@ -11,7 +11,7 @@ console.log(jackPopped);
 
 console.log(count.innerHTML);
 
-let arr = ["POP GOES THE WEASEL",1, 2, 3, 4,];
+let arr = ["PLS KILL ME. HELLP",1, 2, 3, 4,];
 function countDown() {
  count.innerHTML = arr.pop();
 }
@@ -24,4 +24,4 @@ let timer = setInterval(() => {
  }
 }, 1000);
 
- // setTimeout(function () { location.reload(1); }, 2000);
+  setTimeout(function () { location.reload(1); }, 6000);
