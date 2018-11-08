@@ -1,6 +1,6 @@
 # Jack In The Box
 
-Remember the old toy, the [jack-in-the-box](https://en.wikipedia.org/wiki/Jack-in-the-box)? Pretty creepy, huh? Well, we're going to make a virtual jack-in-the-box today.
+Remember the old toy, the [jack-in-the-box](https://en.wikipedia.org/wiki/Jack-in-the-box)? Pretty creepy, huh? Well, we're going to make a virtual jack-in-the-box today.l
 
 In this folder, you'll find an HTML and a CSS file. When you open the HTML file, you should see a header ("Where's Jack?"), a subheader ("5"), and an image of a closed box. Taking a look at the HTML for this, you'll see that we aren't actually using an `img` tag for this - we're using a `div` tag with the CSS property `background-image` applied to the class.
 
