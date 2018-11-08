@@ -1,3 +1,21 @@
+.jack-message {
+  display: flex;
+  justify-content: center;
+  color: #ffbf00;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", "Comic Sans";
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  color: #ff4000;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", "Comic Sans";
+}
+
 .jack-hiding {
   height: 500px;
   width: 500px;
