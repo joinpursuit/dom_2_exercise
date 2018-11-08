@@ -1,27 +1,45 @@
-.jack-message {
-  display: flex;
-  justify-content: center;
-  color: #ffbf00;
-  font-size: 50px;
-  font-weight: bold;
+body {
+  background: darkgrey;
   font-family: "Comic Sans MS", "Comic Sans";
 }
 
-.countdown {
+.jack-message {
   display: flex;
   justify-content: center;
   color: #ff4000;
   font-size: 50px;
   font-weight: bold;
-  font-family: "Comic Sans MS", "Comic Sans";
+  border: 5px dashed black;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  color: #ffbf00;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .jack-hiding {
   height: 500px;
   width: 500px;
   background-image: url("http://toysforprefer.com/wp-content/uploads/2018/01/classic-jester-jack-in-the-box-toy-regarding-jack-in-the-box-toy-closed.gif");
-  background-position: center;
   background-size: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.jack-suprise {
+  height: 500px;
+  width: 500px;
+  background-image: url("https://sep.yimg.com/ay/genius-babies/jester-jack-in-the-box-toy-25.gif");
+  background-size: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Use this image for the revealed Jack: https://sep.yimg.com/ay/genius-babies/jester-jack-in-the-box-toy-25.gif */
