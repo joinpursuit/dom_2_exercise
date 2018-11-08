@@ -1,4 +1,5 @@
 const timer = document.querySelector(".countdown");
+let jack = document.querySelector(".jack-hiding");
 
 const timerCountdown = num => {
   const countD = setInterval(function() {
@@ -7,8 +8,10 @@ const timerCountdown = num => {
       countD;
     } else {
       clearInterval(countD);
-      let jackHiding = document.querySelector(".jack-hiding");
-      jackHiding.classList.add("jack-surprise");
+      console.log(jack);
+      jack.classList.remove("jack-hiding");
+      jack.classList.add("jack-surprise");
+      console.log(jack.classList);
     }
     num--;
   }, 1000);
