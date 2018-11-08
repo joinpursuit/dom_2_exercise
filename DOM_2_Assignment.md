@@ -9,5 +9,5 @@ Your task is simple. Using the appropriate CSS classes and DOM manipulation, you
 A couple tips:
 
 - You'll definitely need to create and import a JavaScript file using the `script` tag.
-- Applying a different CSS class to our image `div` with a different `background-image` is a sure way to get Jack to pop up! Combine your **DOM and CSS skills** to ensure that this happens without a hitch.
+- Applying a different CSS class to our image `div` with a different `background-image`, is a sure way to get Jack to pop up! Combine your **DOM and CSS skills** to ensure that this happens without a hitch.
 - You may need **two timers** - one for the countdown, and one for Jack himself.
