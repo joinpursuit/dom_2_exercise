@@ -100,7 +100,7 @@ body {
   background-size: contain;
     background-repeat: no-repeat;
 }
-.yay2 {
+.yayFit {
   grid-area: 4 / 1;
 
   /* grid-template-columns: repeat(3, 33.3%); */
@@ -108,7 +108,9 @@ body {
   justify-content:flex-start;
   background-image: url("https://mbtskoudsalg.com/images/success-transparent-yay-1.png");
   background-position: right;
-  background-size: cover;
+  background-size: contain;
+  /* width: 50vw;
+  height: 50vh; */
   background-repeat: no-repeat;
   display: none;
 }
@@ -122,13 +124,15 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   display: none;
+  /* width: 50vw;
+  height: 50vh; */
+
 }
 
 .yayShow {
   grid-area: 3 / 2;
   /* width: 200px; */
-  width: 50vw;
-  height: 50vh;
+  width: 50%;
 
   background-image: url("https://mbtskoudsalg.com/images/success-transparent-yay-1.png");
   background-position: right;

@@ -1,6 +1,7 @@
 //countdown:--------
 
-let arr = [0,1,2,3,4]
+// let arr = [0,1,2,3,4]
+let arr = [0]
 
 function countDown (node) {
   node.innerText = arr.pop();
@@ -35,8 +36,13 @@ function changeMessage(node) {
 //-----------
 
 function addCelebration(node) {
-  node.classList.remove("yay")
-  node.classList.add("yayShow")
+  console.log(node.style)
+  console.log(node.style.display);
+  console.log((node.style.display == "none"))
+  node.style.display = (node.style.display == '') ? "inline" : 'none';
+  console.log(node.style.display);
+
+  flickerYay(theYay)
 }
 
 
@@ -73,13 +79,15 @@ function flickerYay(node) {
 setTimeout(() => {
   theNodes = document.querySelector(".jack-hiding");
   theMessage = document.querySelector(".jack-message");
-  theYay = document.querySelector(".yay");
-  theYay2 =  document.querySelector(".yay2");
-  theBigYay = document.getElementById('yaySpace');
+  theYay = document.getElementById("yaySpace");
+  theYay2 =  document.getElementById("yaySpace2");
+  // theBigYay = document.getElementById('yaySpace');
 
   changeImg(theNodes);
   changeMessage(theMessage)
+
   addCelebration(theYay)
-  addCelebration(theYay2)
-  flickerYay(theBigYay)
-},5000)
+  // addCelebration(theYay2)
+
+  // flickerYay(theYay)
+},1000)
