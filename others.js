@@ -1,3 +1,5 @@
+//Alex's:--------------------------
+
 let counterObj = document.querySelector(".countdown");
 let jack = document.querySelector(".jack-hiding");
 let count = 5;
