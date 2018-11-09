@@ -1,3 +1,5 @@
+
+
 .jack-hiding {
   height: 500px;
   width: 500px;
@@ -7,3 +9,13 @@
 }
 
 /* Use this image for the revealed Jack: https://sep.yimg.com/ay/genius-babies/jester-jack-in-the-box-toy-25.gif */
+
+
+.jack-appear {
+  height: 500px;
+  width: 500px;
+  background-image: url("https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-anger-management-jack-nicholson.jpg");
+  background-position: center;
+  background-size: contain;
+
+}
