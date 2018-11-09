@@ -6,4 +6,13 @@
   background-size: contain;
 }
 
+
+.jack-revealed {
+  height: 500px;
+  width: 500px;
+  background-image: url("https://sep.yimg.com/ay/genius-babies/jester-jack-in-the-box-toy-25.gif");
+  background-position: center;
+  background-size: contain;
+}
+
 /* Use this image for the revealed Jack: https://sep.yimg.com/ay/genius-babies/jester-jack-in-the-box-toy-25.gif */
