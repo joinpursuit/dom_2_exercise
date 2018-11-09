@@ -1,9 +1,155 @@
+html, body, header, nav, h1, a,
+ul, ol, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+textarea,
+button {
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+
+body {
+  display: grid;
+  grid-template-columns: 550px 500px;
+  grid-template-rows: 50px 50px 300px 100px;
+
+  /* margin-left: 20px;
+  margin-top: 20px; */
+
+}
+
+.jack-message {
+  grid-area: 1 / 1;
+  /* grid-column-start: 1;
+  grid-row-start: 1; */
+  font-size: 50px;
+}
+
+.countdown {
+  grid-area: 2 / 1;
+  font-size: 20px;
+}
+
+
 .jack-hiding {
-  height: 500px;
-  width: 500px;
+  grid-area: 3 / 1;
+  /* height: 500px;
+  width: 500px; */
+
+  width: 50vw;
+  height: 50vh;
+
+
   background-image: url("http://toysforprefer.com/wp-content/uploads/2018/01/classic-jester-jack-in-the-box-toy-regarding-jack-in-the-box-toy-closed.gif");
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
+
+.display {
+  display: inline-grid;
+}
+
+
+
+.jack-seen {
+  grid-area: 3 / 1;
+  /* height: 500px;
+  width: 500px; */
+
+  width: 50vw;
+  height: 50vh;
+
+  background-image: url("https://sep.yimg.com/ay/genius-babies/jester-jack-in-the-box-toy-25.gif");
+  background-position: center;
+  background-size: contain;
+    background-repeat: no-repeat;
+}
+.yayFit {
+  grid-area: 4 / 1;
+
+  /* grid-template-columns: repeat(3, 33.3%); */
+  /* background-size: 500px; */
+  justify-content:flex-start;
+  background-image: url("https://mbtskoudsalg.com/images/success-transparent-yay-1.png");
+  background-position: right;
+  background-size: contain;
+  /* width: 50vw;
+  height: 50vh; */
+  background-repeat: no-repeat;
+  display: none;
+}
+
+.yay {
+  grid-area: 3 / 2;
+  /* background-size: 500px; */
+  justify-content:flex-start;
+  background-image: url("https://mbtskoudsalg.com/images/success-transparent-yay-1.png");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: none;
+  /* width: 50vw;
+  height: 50vh; */
+
+}
+
+.yayShow {
+  grid-area: 3 / 2;
+  /* width: 200px; */
+  width: 50%;
+
+  background-image: url("https://mbtskoudsalg.com/images/success-transparent-yay-1.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.yayBig {
+  grid-area: 3 / 2;
+  height: 700px;
+  background-image: url("https://mbtskoudsalg.com/images/success-transparent-yay-1.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
 
 /* Use this image for the revealed Jack: https://sep.yimg.com/ay/genius-babies/jester-jack-in-the-box-toy-25.gif */
