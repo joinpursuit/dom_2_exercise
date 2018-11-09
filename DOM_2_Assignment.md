@@ -1,4 +1,4 @@
-# Jack In The Box
+# Jack In The Boxx
 
 Remember the old toy, the [jack-in-the-box](https://en.wikipedia.org/wiki/Jack-in-the-box)? Pretty creepy, huh? Well, we're going to make a virtual jack-in-the-box today.
 
