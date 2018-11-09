@@ -8,10 +8,8 @@ const timerCountdown = num => {
       countD;
     } else {
       clearInterval(countD);
-      console.log(jack);
       jack.classList.remove("jack-hiding");
       jack.classList.add("jack-surprise");
-      console.log(jack.classList);
     }
     num--;
   }, 1000);

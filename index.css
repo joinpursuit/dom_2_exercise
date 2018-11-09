@@ -1,5 +1,5 @@
 body {
-  background: darkgrey;
+  background: lightblue;
   font-family: "Comic Sans MS", "Comic Sans";
 }
 
@@ -9,7 +9,7 @@ body {
   color: #ff4000;
   font-size: 50px;
   font-weight: bold;
-  border: 5px dashed black;
+  border: 5px solid black;
 }
 
 .countdown {
@@ -29,7 +29,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
-  width: 35%;
 }
 
 .jack-surprise {
@@ -40,7 +39,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 /* Use this image for the revealed Jack: https://sep.yimg.com/ay/genius-babies/jester-jack-in-the-box-toy-25.gif */
