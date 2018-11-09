@@ -6,4 +6,15 @@
   background-size: contain;
 }
 
+.jack-revealed {
+  height: 700px;
+  width: 100%;
+  background-image: url("https://static.tvtropes.org/pmwiki/pub/images/rsz_jitb.jpg");
+  background-position: center;
+  background-size: contain;
+}
+
+button {
+  font-size: 16px;
+}
 /* Use this image for the revealed Jack: https://sep.yimg.com/ay/genius-babies/jester-jack-in-the-box-toy-25.gif */
