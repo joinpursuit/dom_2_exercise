@@ -1,7 +1,7 @@
 //countdown:--------
 
-// let arr = [0,1,2,3,4]
-let arr = [0]
+let arr = [0,1,2,3,4]
+// let arr = [0]
 
 function countDown (node) {
   node.innerText = arr.pop();
@@ -90,4 +90,4 @@ setTimeout(() => {
   // addCelebration(theYay2)
 
   // flickerYay(theYay)
-},1000)
+},5000)
