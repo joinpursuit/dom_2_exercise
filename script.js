@@ -14,4 +14,4 @@ const timerCountdown = num => {
     num--;
   }, 1000);
 };
-timerCountdown(5);
+timerCountdown(4);
