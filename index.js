@@ -1,3 +1,5 @@
+//var counter =
+
 
 let num = 4;
 let interval = setInterval(function() {
